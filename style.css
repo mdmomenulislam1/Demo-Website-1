@@ -35,7 +35,7 @@
     width: 300px;
     height: 300px;
 }
-.banner-container{
+.banner-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -67,5 +67,22 @@
 .btn:hover{
     background-color: white;
     color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-title{
+    text-align: center;
+}
+.about-heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-btn:hover{
+    background-color: rgb(86, 95, 9);
+    color: rgb(213, 206, 206);
     font-weight: bold;
 }
