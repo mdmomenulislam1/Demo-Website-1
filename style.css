@@ -54,6 +54,7 @@
 .description {
     font-size: 18px;
     margin: 15px 0px;
+    text-align: justify;
 }
 .btn {
     padding: 10px 20px;
@@ -73,9 +74,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 25px;
+    
 }
 .about-title{
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .about-heading{
     font-size: 40px;
@@ -85,4 +90,72 @@
     background-color: rgb(86, 95, 9);
     color: rgb(213, 206, 206);
     font-weight: bold;
+}
+.box {
+    width: 250px;
+    height: 320px;
+    box-shadow: 5px 2px 110px gray;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.icon {
+    width: 100px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.service {
+    background-color: black;
+}
+.service-title{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    padding: 35px;
+    color: white;
+    
+}
+.footer-title{
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+.footer_photo{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+}
+footer p{
+    padding-left: 20px;
+    color: white;
+    font-style: initial;
+    font-size: 21px;
+}
+footer li{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.copy{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
 }
