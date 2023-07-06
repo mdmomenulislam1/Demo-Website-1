@@ -1,3 +1,33 @@
-body {
-    background-color: rgb(52, 47, 47);
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    background-color: rgb(82, 77, 77);
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+.logo_photo {
+    width: 300px;
+}
+.menu_item {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.menu_element{
+    margin: 15px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.menu_element:hover {
+    color: aqua;
 }
